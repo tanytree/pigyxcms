@@ -1,0 +1,49 @@
+.clearfix{*zoom:1}
+.clearfix:before,.clearfix:after{display:table;content:"";line-height:0}
+.clearfix:after{clear:both}
+.fesHd{text-align: center;color: #6c6c6c}
+.fesHd .row{display: none}
+.fesHd h2{font-size: 18px;color: #333}
+.fesTag{margin: 0 35px;}
+.fesTag .scrollBox{padding-top: 18px;position: relative}
+.fesTag .scrollBox .scrollWidth{margin-left: 0px;width: 750px;overflow: hidden;position:relative;}
+.fesTag .scrollBox .line{height: 1px;background: #999;position: absolute;left: 0;z-index: 0;top: 89px;width: 100%;}
+.fesTag .scrollBox .back{position: absolute;right: 0;color: #1bbc6b;top: 67px;z-index: 4;padding-bottom: 4px;border-bottom: 1px solid #1bbc6b;}
+.fesTag .scrollBox .back i{display: inline-block;width: 12px;height: 13px;background: url("../images/dicons.png") no-repeat -29px -162px;vertical-align: middle;margin-right: 5px;}
+.fesTag .scrollBox .back i{_display: inline;*display: inline;}
+.fesTag .scrollBox .scrollWidth ul{margin-top: 90px;height: 100px;}
+.fesTag .scrollBox li{float: left;width: 100px;height: 100px;cursor:pointer;background: url("../images/dicons.png") no-repeat -125px 0;margin: 0 25px;position: relative}
+.fesTag .scrollBox li span{display: block;position: absolute;top: -70px;left: -3px;width: 104px;height: 35px;background: url("../images/dicons.png") no-repeat -125px -115px;text-align: center;line-height: 28px}
+.fesTag .scrollBox li i{display: block;width: 10px;height: 10px;position: absolute;top: -24px;left: 44px;}
+.fesTag .scrollBox li .mianImg{width: 100px;height: 100px;text-align: center}
+.fesTag .scrollBox li .mianImg img{margin-top: 15px;width: 60px;height: 70px;}
+.fesTag .scrollBox li .mianImg .on{display: none}
+.fesTag .scrollBox li.on,.fesTag .scrollBox li:hover{background-position:0 0}
+.fesTag .scrollBox li.on .mianImg .normal,.fesTag .scrollBox li:hover .mianImg .normal{display: none}
+.fesTag .scrollBox li.on .mianImg .on,.fesTag .scrollBox li:hover .mianImg .on{display: block}
+.fesTag .scrollBox li.on span,.fesTag .scrollBox li:hover span{background-position: 0 -115px;color: #fff}
+.fesTag .scrollBox li.on i{background: url("../images/dicons.png") no-repeat 0 -168px;}
+.fesBd{margin: 60px 35px 0 35px;overflow: hidden}
+.fesBd .imgHolder{float: left;width:305px;height: 594px;background: url("../images/phone.png") no-repeat;margin-right: 30px}
+.fesBd .info{overflow:hidden;height: 594px;position: relative}
+.fesBd .row{height: 594px;width:495px;display: block;}
+.fesBd .row h2{font-size: 20px;color: #1bbc6b}
+.fesBd .row p{padding-top: 30px;font-size: 14px;line-height: 24px;}
+.fesBd .row p strong{font-size: 14px;color: #6c6c6c}
+.fesBd .imgHolder .imgScroll{width: 256px;height: 385px;overflow: hidden;margin-left: 26px;margin-top: 106px;position: relative;}
+.fesBd .imgHolder .imgScroll ul{overflow: hidden;position: absolute;top: 0;left: 0}
+.fesBd .imgHolder .imgScroll ul>li{float: left;width: 256px;height: auto;overflow: hidden}
+.fesBd .imgHolder .imgScroll img{width: 256px;height: 385px;}
+.fesBd .imgHolder .imgScroll ul>li{position: relative;background: #fff}
+.fesBd .imgHolder .imgScroll ul>li ol{width: 256px;height: 385px;}
+.fesBd .imgHolder .imgScroll ul>li ol li{position: absolute;top: 0;left: 0;z-index: 2}
+.fesBd .imgHolder .imgScroll ul>li .scrollPage{position: absolute;bottom: 20px;width: 100%;text-align: center;z-index: 9;}
+.fesBd .imgHolder .imgScroll ul>li .scrollPage i{display: inline-block;;width: 8px;height: 8px;background: green;margin: 0 2px;border-radius: 50px;cursor: pointer}
+.fesBd .imgHolder .imgScroll ul>li .scrollPage i{*display: inline-block}
+.fesBd .imgHolder .imgScroll ul>li .scrollPage i.on{background: #f60}
+.fesBd .btn{margin: 35px 0;text-align: left;position: absolute;left: 0;bottom: 0}
+.fesBd .btn a{font-size: 15px;color: #1bbc6b;padding: 10px 25px;border: 1px solid #1bbc6b;margin-right: 20px;position: relative;background: #fff}
+.fesBd .btn a:hover{background: #1bbc6b;color: #fff}
+.fesBd .btn a .tdc{position: absolute;top: -202px;left: 33px;background: #fff;display: none;border: 1px solid #1bbc6b;padding: 10px;border-radius: 5px}
+.fesBd .btn a .tdc p{color: #333;font-size: 12px;padding: 0;line-height: normal;}
+.fesBd .btn a .tdc i{position: absolute;bottom: -30px;left: 20px;width: 87px;height: 30px;background: url("../images/arrow.png") no-repeat}
